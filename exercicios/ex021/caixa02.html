@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FCC5F0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            width: 900;
+            background: #2f195fda;
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            box-shadow: 0px 8px 20px 3px rgba(0, 0, 0, 0.308);
+            border-radius: 10px 20px;
+            
+        }
+
+        #assuntos > h1 {
+            width: 300px;
+            height: 10px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+
+            margin: auto;
+            padding: 20px;
+
+        }
+
+        #assuntos > p {
+            font-weight: bolder;
+            text-align: center;
+            
+        }
+
+        nav {
+            background: rgb(46, 46, 46);
+            padding: 3px;
+            box-shadow: 0px 9px 10px -2px rgba(0, 0, 0, 0.075);
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 80px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background: #9DD1F1;
+            padding: 10px;
+            margin: 50px;
+            box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.137);
+            border-radius: 10px 40px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px 40px;
+            box-shadow: 1px -6px 12px -4px rgba(0, 0, 0, 0.123);
+        
+            
+        }
+
+        article > aside {
+            background-color: rgb(151, 151, 151);
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Assuntos do momento</h1>
+            <p>Esporte Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ad deleniti dolor molestiae odio soluta dolores quaerat ullam, corporis voluptatibus laboriosam tempore nihil accusamus qui sint suscipit quos fugiat at.
+                    </p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
